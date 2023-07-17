@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    src: url(impact.woff2);
+  }
+
+  .fon{
+    width: 1600px;
+    height: 800px;
+
+  }
+
+
+
+.meny{
+
+    display: flex;
+    justify-content: start;
+
+    
+}
+
+.nast{
+    position: absolute;
+    width: 1600px;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    gap:40px;
+    margin-left: 265px;
+}
+
+.logo{
+    margin-top: 70px;
+}
+
+p{
+    margin-top: 30px;
+}
+.text-b{
+    width: 900px;
+    height: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 76px;
+}
+.blok{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 140px;
+}
+.blok p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 252px;
+}
+p1{
+    color: rgb(158, 118, 17);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-left: 330px; 
+} 
+
+svg{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -285px;
+}
+p2{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -200px;
+}
+.icon{
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 430px; 
+}
+
+.vsepro p{
+    font-size: 27px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 300px;
+    width: 600px;
+}
+.vsepro p:nth-of-type(2){
+    font-size: 16px;
+}
+.vsepro p:nth-of-type(3){
+    font-size: 16px;
+    margin-left: 950px;
+    margin-top: -133px;
+}
+
+.vsepro img:nth-of-type(1){
+    margin-top: 120px;
+    margin-left: 300px;
+    width: 1250px;
+    height: 634px;
+}
+.vsepro p:nth-of-type(5){
+    font-size: 16px;
+}
+.vsepro p:nth-of-type(6){
+    font-size: 16px;
+}
+.vsepro img:nth-of-type(2){
+    margin-top: -400px;
+    margin-left: 1000px;
+}
+.vsepro p:nth-of-type(7){
+    width: 400px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 27PX;
+}
+.vsepro p:nth-of-type(8){
+    font-size: 16PX;
+    width: 500px;
+}
+.vsepro img:nth-of-type(3){
+    margin-top: -168px;
+    margin-left: 1000px;
+}
+
+.trek{
+    width: 1922px;
+    height: 890px;
+    background: url(gran_final_01\ 1.png);
+}
+.trek p{
+    position: absolute;
+    font-size: 27px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 300px;
+    width: 600px;
+    margin-top: 70px;
+}
+.text-trek p:nth-of-type(2){
+    width: 433;
+    font-size: 16px;
+    
+}
+.text-trek img{
+    margin-top: 430px;
+    margin-left: 500px;
+}
